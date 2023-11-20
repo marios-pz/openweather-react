@@ -38,7 +38,7 @@ jobs:
 
       - name: Build webapp
         run: |
-            docker build .-t ${{ env.REGISTRY }}/${{ github.event.repository.name }}:${GITHUB_REF##*/}
+            docker build . -t ${{ env.REGISTRY }}/${{ github.event.repository.name }}:${GITHUB_REF##*/}
 
       - name: Push webapp
         run: |
