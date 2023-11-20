@@ -1,0 +1,38 @@
+* {
+    font-weight: bold;
+}
+
+body {
+    color: rgb(236, 227, 206);
+    transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+    background-color: rgb(236, 227, 206);
+}
+
+body.dark-theme {
+    background-color: rgb(58, 77, 57);
+}
+
+.dark-theme {
+    color: black;
+}
+
+button { 
+    border-radius: 8px;
+    font-size: 18px;
+    padding: 5px 10px;
+    background-color: rgb(236, 227, 206);
+}
+
+button.dark-theme {
+    background-color: rgb(82, 65, 42);
+}
+
+.main {
+  display: flex;
+} 
+
+.weather-container {
+  flex: 1;
+}
+
+

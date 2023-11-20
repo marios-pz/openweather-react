@@ -1,0 +1,17 @@
+.weather-block {
+    padding-left: 1em;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 1em;
+    width: 35%;
+    background-color: rgb(82, 65, 42);
+}
+
+.weather-block.dark-theme {
+    background-color: rgb(115, 144, 114);
+}
+
+
